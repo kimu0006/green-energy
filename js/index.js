@@ -2,9 +2,9 @@
 // Load your images on page-load
 function preloader() {
     const imagesPaths = [
-        "img/img-1.jpg",
-        "img/img-2.jpeg",
-        "img/img-3.jpeg"
+        "/img/img-1.jpg",
+        "/img/img-2.jpeg",
+        "/img/img-3.jpeg"
     ];
     const images = [];
     for (let i = 0; i < imagesPaths.length; i++) {
